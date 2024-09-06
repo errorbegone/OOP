@@ -71,9 +71,18 @@ class SubscribedPerson extends Person{
 		super.walk();
 		System.out.println("SubscribedPerson is walking");
 	}
-
-
-
-
-
 }
+
+// Abstrction hides the complexity of implementation from the user
+// Achieved through abstrct class or by using interfaces
+abstract class Car{
+	int speed; 
+	void run();
+}
+
+// Why create an abstract class??
+// We could have created a class and extended it to its children, say Audi etc..
+// But this would mean declaring and defining the function in the parent as well as tha child class.
+// This would increase the complexity and repetitive nature of the code
+// Because in the real world the number of methods and the attributes can be huge..
+// Hence the need for abstraction.
