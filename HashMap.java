@@ -34,7 +34,7 @@ public class Main {
 		// length
 		map.size();
 
-		// Some Varients
+		// Some Variants
 		HashMap<Integer, ArrayList<>()> hm = new HashMap<>();
 		HashMap<String, ArrayList<>()> hm = new HashMap<>();
 		
