@@ -16,7 +16,7 @@ public class Main {
 class Person{
 	String name = "None";
 	int age = 0; 
-	// static makes it a class variable meaning it can be accessed without the need for instantiating an object of tat partiular class
+	// static makes it a class variable meaning it can be accessed without the need for instantiating an object of that particular class
 	// but how do i access it ???
 	// Simply by doing Classname.variable
 	// you can use a static method without instantiating an object !!!
