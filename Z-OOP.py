@@ -1,11 +1,11 @@
 from abc import ABC, abstractmethod
 from collections import defaultdict
 
-def BookExistsError(Exception):
+class BookExistsError(Exception):
     def __init__(self):
         super().__init__("Book with title already exists in repo...")
 
-def BookNotFoundError(Exception):
+class BookNotFoundError(Exception):
     def __init__(self):
         super().__init__("Book does not exist in repo...")
 
